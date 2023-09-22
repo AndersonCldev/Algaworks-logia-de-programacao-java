@@ -33,12 +33,4 @@ Se você encontrar erros ou melhorias para as atividades existentes, sinta-se à
 
 Se tiver dúvidas sobre alguma atividade ou precisar de esclarecimentos adicionais, você pode abrir uma "issue" neste repositório. Teremos prazer em ajudar!
 
-## Licença
-
-Este repositório está sob a licença [Nome da Licença]. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
-
 ---
-
-**Nota:** Certifique-se de substituir as informações entre colchetes (como `[Nome da Licença]`, `seu-usuario`, `nome-do-repositorio`, etc.) pelas informações reais do seu curso e repositório.
-
-Espero que este README.md seja útil para o seu repositório no GitHub. Boa sorte com o curso e suas atividades de lógica de programação!
