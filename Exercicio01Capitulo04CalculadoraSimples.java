@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Exercicio01Capitulo04CalculadoraSimples {
 	public static void main(String[] args) {
+
+		// Aquia abaixo coloquei nosso código em uma estrutura de repetição para que não fosse possivel a reinicializar nossa calculadora.
+		while( true ){
 		Integer PrimeiroNumero = null;
 		Integer segundoNumero = null;
 		Integer operacao = null; 
@@ -14,7 +17,8 @@ public class Exercicio01Capitulo04CalculadoraSimples {
 		
 		System.out.print("Pronto, agora digite o segundo número da operação: ");
 		segundoNumero = ler.nextInt();
-		
+
+				//Nesta estrutura de repetição fazemos com que a calculadora valide a opção escolhida pelo usuário e faça a operação solicitado.
 			if (operacao == 1 ) {
 				
 				System.out.println("Resultado: " + PrimeiroNumero * segundoNumero);	
@@ -31,12 +35,23 @@ public class Exercicio01Capitulo04CalculadoraSimples {
 				
 				System.out.println("Resultado: " + (PrimeiroNumero - segundoNumero));
 			}else {
-				System.out.println("Seu vagabundo não existe operação na opção número " + operacao + ""+" Reinicie o sistema.");
+				System.out.println("Usuário não existe operação na opção do número " + operacao);
+				System.out.println("Reinicie o código");
 			}
+
+				//Usuário digitarar 0 caso queira reiniciar a calculadora se não a calculadora finalizara
+				System.out.print("Deseja sair? Digite 0 para sair ou qualquer outro número para continuar: ");
+				
+				Integer Reininciar = ler.nextInt();
+				if(Reininciar == 0){
+                                    break; // Sair do loop se o usuário quiser sair.
+				}
+				
+				
+		}
+				
 			
-				ler.close();
-			
-			
+
 				
 	
 		}
