@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class Exercicio01Capitulo04CalculadoraSimples {
 	public static void main(String[] args) {
-		Integer PrimeiroNumero = 0;
-		Integer segundoNumero = 0;
-		Integer operacao = 0; 
+		Integer PrimeiroNumero = null;
+		Integer segundoNumero = null;
+		Integer operacao = null; 
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.print("Olá, digite por favor o primeiro número para primeira operação:");
