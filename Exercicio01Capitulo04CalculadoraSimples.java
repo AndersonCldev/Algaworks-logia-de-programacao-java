@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Exercicio01Capitulo04CalculadoraSimples {
 	public static void main(String[] args) {
 
-		// Aquia abaixo coloquei nosso código em uma estrutura de repetição para que não fosse possivel a reinicializar nossa calculadora.
+		// Aquia abaixo coloquei nosso código numa estrutura de repetição "while" assim sendo possível realizar várias operações dentro do código.
+
 		while( true ){
 		Integer PrimeiroNumero = null;
 		Integer segundoNumero = null;
