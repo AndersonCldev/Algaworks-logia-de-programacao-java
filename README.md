@@ -12,13 +12,7 @@ Neste curso, eu aprendi os conceitos fundamentais de lógica de programação us
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local usando o seguinte comando:
 
-
 2. Navegue para a pasta do projeto:
-
-
-3. Dentro do diretório `atividades/`, você encontrará subdiretórios correspondentes a cada atividade. Cada subdiretório terá seu próprio arquivo README com instruções específicas sobre a atividade.
-
-4. Para resolver uma atividade, siga as instruções fornecidas no README da atividade em questão.
 
 ## Contribuindo
 
@@ -26,6 +20,6 @@ Se você encontrar erros ou melhorias para as atividades existentes, sinta-se à
 
 ## Dúvidas
 
-Se tiver dúvidas sobre alguma atividade ou precisar de esclarecimentos adicionais, você pode abrir uma "issue" neste repositório. Teremos prazer em ajudar!
+Se tiver dúvidas sobre alguma atividade ou precisar de esclarecimentos adicionais, você pode abrir uma "issue" neste repositório. 
 
 ---
