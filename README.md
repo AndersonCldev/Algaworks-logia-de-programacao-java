@@ -1,17 +1,12 @@
 # Curso de Lógica de Programação com Java - Algaworks
 
-Bem-vindo ao repositório do curso de Lógica de Programação com Java da Algaworks. Este repositório contém atividades que foram passadas no curso para serem resolvidas pelos alunos.
+Bem-vindo ao repositório das minhas atividades resolvidas do curso de Lógica de Programação com Java da Algaworks. Este repositório contém atividades que foram passadas no curso para serem resolvidas pelos alunos.
 
 ## Descrição
 
-Neste curso, você aprenderá os conceitos fundamentais de lógica de programação usando a linguagem de programação Java. As atividades deste repositório foram projetadas para ajudar você a praticar e aplicar os conhecimentos adquiridos no curso.
+Neste curso, eu aprendi os conceitos fundamentais de lógica de programação usando a linguagem de programação Java. As atividades deste repositório foram projetadas para ajudar a praticar e aplicar os conhecimentos adquiridos no curso.
 
 ## Estrutura do Repositório
-
-O repositório está organizado da seguinte maneira:
-
-- **atividades/**
-  - Este diretório contém todas as atividades que foram passadas durante o curso. Cada atividade está em um diretório separado com seu próprio README explicativo.
 
 ## Como Usar Este Repositório
 
