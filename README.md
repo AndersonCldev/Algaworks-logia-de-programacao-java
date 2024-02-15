@@ -6,11 +6,9 @@ Bem-vindo ao repositório das minhas atividades resolvidas do curso de Lógica d
 
 Neste curso, eu aprendi os conceitos fundamentais de lógica de programação usando a linguagem de programação Java. As atividades deste repositório foram projetadas para ajudar a praticar e aplicar os conhecimentos adquiridos no curso.
 
-## Estrutura do Repositório
-
 ## Como Usar Este Repositório
 
-1. Clone este repositório para o seu ambiente de desenvolvimento local usando o seguinte comando:
+1. Clone este repositório para o seu ambiente de desenvolvimento local.
 
 2. Navegue para a pasta do projeto:
 
