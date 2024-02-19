@@ -5,6 +5,7 @@ public class Pedido {
 	private String nomeCliente;
 	private String sobrenomeCliente;
 	private String nomeCompleto;
+	private String cpf;
 	private String nomePedido;
 	private Byte quantidade; 
 	private Double subtotal;
@@ -37,8 +38,18 @@ public class Pedido {
 		return nomeCompleto;
 	}
 	
-	public void setNomeComleto(String nomeCompleto) {
+	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
+	}
+	
+	
+	//Métodos get e set cpf
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
 	//Métodos get e set nomePedido
