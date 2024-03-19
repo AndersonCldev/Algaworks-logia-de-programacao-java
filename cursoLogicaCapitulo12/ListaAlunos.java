@@ -16,7 +16,6 @@ package cursoLogicaCapitulo12;
 			return tamanhoLista;
 		}
 		
-		
 		void adicionar(Aluno aluno)  {
 			
 			//caso quantidade de alunos seja maior que o tamnho da lista criamos uma nova lista e iteramos os valores para a mesma.
@@ -26,9 +25,7 @@ package cursoLogicaCapitulo12;
 					novaLista[i] = lista[i];
 				}
 				
-				lista = novaLista;
-				
-				
+				lista = novaLista;		
 				
 			}
 			lista [tamanhoLista] = aluno;
@@ -60,6 +57,37 @@ package cursoLogicaCapitulo12;
 			tamanhoLista--;
 			lista[tamanhoLista] = null;
 		}
+		
+		void ordenar() {
+			
+			for(int i = 1; i < tamanhoLista; i++) {
+				Aluno alunoPossicaBase = lista[i];
+				int indicePosicaoBase = i;
+				
+				while (indicePosicaoBase > 0){
+					int indicePOsicaoAnterior = indicePosicaoBase - 1;
+					Aluno alunoPosicaoAnterior = lista[indicePOsicaoAnterior];
+					
+					Boolean alunoPosicaoAnteriorVemDepoisDe = alunoPosicaoAnterior == null || alunoPosicaoAnterior.vemDepoisDe(alunoPossicaBase);
+							
+					if(alunoPosicaoAnterior.vemDepoisDe(alunoPossicaBase)) {
+					lista[indicePosicaoBase] = lista[indicePOsicaoAnterior];
+						
+						indicePOsicaoAnterior--;
+					
+					}
+				}
+				lista[indicePosicaoBase] = alunoPossicaBase;
+			}
+						
+		}
+		
+		public static void main (String args[]) {
+			String nome1 = "Carolos";
+			String nome2 = "Douglas";
+			System.out.println(nome1.compareTo(nome2));
+		}
+		
 		
 		
 		
