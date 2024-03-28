@@ -25,12 +25,15 @@ public class ContatosControle {
 		}
 	
 	@GetMapping("/contatos")
-	public ModelAndView novo() {
+	public ModelAndView listar() {
 		ModelAndView modelAndView = new ModelAndView("listar");
 		modelAndView.addObject("contatos", LISTA_CONTATOS);
 		return modelAndView;
 	}
 	
-	
+	@GetMapping("/contatos/novo")
+	public String novo() {
+		return "formulario";
+	}
 }
 
