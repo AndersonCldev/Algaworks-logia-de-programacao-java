@@ -59,6 +59,7 @@ public class ContatosControle {
 		modelAndView.addObject("contato", new Contato());
 		
 		Contato contato = prcurarContato(id);
+		modelAndView.addObject("contato" , contato);
 		return modelAndView;
 	}
 	public Contato prcurarContato(String id) {
