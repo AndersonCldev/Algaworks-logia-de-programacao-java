@@ -55,7 +55,7 @@ public class ContatosControle {
 		return "redirect:/contatos";
 	}
 	
-	
+	// implementação da edição dos contatos ja cadastrados 
 	@GetMapping("/contatos/{id}/editar")
 	public ModelAndView editar(@PathVariable String id ) {
 		ModelAndView modelAndView = new ModelAndView("formulario");
@@ -65,6 +65,8 @@ public class ContatosControle {
 		modelAndView.addObject("contato" , contato);
 		return modelAndView;
 	}
+	
+	//aqui validamos se o contato ja existe 
 	public Contato prcurarContato(String id) {
 		for (int i = 0; i < LISTA_CONTATOS.size(); i++) {
 			Contato contato = LISTA_CONTATOS.get(i);
