@@ -15,7 +15,7 @@ public class ContatosControle {
 	private static final ArrayList<Contato> LISTA_CONTATOS = new ArrayList<>();
 	
 	static {
-			
+			//lista de contatos pre adicionados 
 		LISTA_CONTATOS.add(new Contato("1", "Maria", "+55 71 98565 6755"));
 		LISTA_CONTATOS.add(new Contato("2", "José", "+55 71 9789 6541"));
 		LISTA_CONTATOS.add(new Contato("3", "Cleitom", "+55 71 99756 3942"));
@@ -23,11 +23,13 @@ public class ContatosControle {
 		
 	}
 	
+	//Chamado do index 
 	@GetMapping("/")
 	public String index() {
 			return "index" ;
 		}
 	
+	//chamado da aba contatos
 	@GetMapping("/contatos")
 	public ModelAndView listar() {
 		ModelAndView modelAndView = new ModelAndView("listar");
@@ -35,6 +37,7 @@ public class ContatosControle {
 		return modelAndView;
 	}
 	
+	//chamados da aba adicona novo contato
 	@GetMapping("/contatos/novo")
 	public ModelAndView novo() {
 		ModelAndView modelAndView = new ModelAndView("formulario");
